@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Otimização de Fonte: Carregamento assíncrono para não bloquear a renderização -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+    
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -84,7 +87,7 @@
 
 <!-- Pixel X App - START -->
 <script type='text/javascript'>
-!function(){var e=window.location.href,t=document.title,n=Date.now(),o=document.createElement('script');o.src='https://pxa.fluentecomlegenda.com/remote?url='+encodeURIComponent(e)+'&title='+encodeURIComponent(t)+'&time='+n,o.async=!0,document.head.appendChild(o)}()
+!function(){var e=window.location.href,t=document.title,n=Date.now(),o=document.createElement('script');o.src='https://pxa.fluentecomlegenda.com/remote?url='+encodeURIComponent(e)+'&title='+encodeURIComponent(t)+'&time='+n,o.async=!0,o.defer=!0,document.head.appendChild(o)}() /* Otimização: Adicionado DEFER */
 </script>
 <!-- Pixel X App - END -->
 
@@ -98,7 +101,7 @@
             
 
 <div class="text-xl font-bold text-gray-800">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=90,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/6yB9tdU3cE6Yu9N5S1C1sw.png" alt="Logo Fluente Com Legenda" class="h-16 w-auto"> 
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=90,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/6yB9tdU3cE6Yu9N5S1C1sw.png" alt="Logo Fluente Com Legenda" class="h-16 w-auto" loading="eager"> <!-- Imagem principal, carregar rápido -->
             </div>
         </div>
     </header>
@@ -130,7 +133,8 @@
         <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             O Sistema de 5 Minutos/Dia Que Treina Seu Cérebro a Reproduzir Sons Nativos — Sem Gramática, Sem Decoreba.
         </p>
-        <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=488,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Pessoas falando inglês com confiança" class="mt-8 mx-auto rounded-lg shadow-xl max-w-xs md:max-w-sm">
+        <!-- Otimização: Adicionado loading="lazy" -->
+        <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=488,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Pessoas falando inglês com confiança" class="mt-8 mx-auto rounded-lg shadow-xl max-w-xs md:max-w-sm" loading="lazy">
 
         <div class="mt-10">
             <a href="#problema" class="cta-button text-white font-bold py-4 px-10 rounded-lg text-lg shadow-lg">
@@ -225,7 +229,8 @@
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=488,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Pessoa utilizando o produto em um dispositivo" class="rounded-lg shadow-xl w-full h-auto">
+                    <!-- Otimização: Adicionado loading="lazy" -->
+                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=488,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Pessoa utilizando o produto em um dispositivo" class="rounded-lg shadow-xl w-full h-auto" loading="lazy">
                 </div>
                 <div>
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">📦 O Que Você Recebe</h2>
@@ -265,7 +270,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/VJnWgmupUO55WNKzVXg.webp" alt="Ícone de Desafio dos 5 Minutos" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/VJnWgmupUO55WNKzVXg.webp" alt="Ícone de Desafio dos 5 Minutos" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">🎯 BÔNUS #1: DESAFIO DOS 5 MINUTOS</h4>
                 <p class="text-gray-600 mt-2">O&nbsp;sistema que transforma&nbsp;"inglês passivo" em "fala ativa"&nbsp;em&nbsp;apenas 5 minutos por dia.</p>
                 <ul class="mt-4 space-y-2 text-sm">
@@ -278,7 +284,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/azw36Rip506IWyUrBrEIhw.webp" alt="Ícone de 10 Frases Universais" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/azw36Rip506IWyUrBrEIhw.webp" alt="Ícone de 10 Frases Universais" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">🌍 BÔNUS #2: 10 FRASES UNIVERSAIS</h4>
                 <p class="text-gray-600 mt-2">Seu "kit de sobrevivência" para&nbsp;qualquer país do mundo.</p>
                  <ul class="mt-4 space-y-2 text-sm">
@@ -291,7 +298,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/7xzDCiczOEZRhrrnEiz7Q.webp" alt="Ícone de Inglês Real vs Inglês de Escola" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/7xzDCiczOEZRhrrnEiz7Q.webp" alt="Ícone de Inglês Real vs Inglês de Escola" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">🎙 BÔNUS #3: GUIA DE INGLÊS REAL vs INGLÊS DE ESCOLA</h4>
                 <p class="text-gray-600 mt-2">O que&nbsp;nativos REALMENTE falam&nbsp;vs&nbsp;o que te ensinaram errado.</p>
                  <ul class="mt-4 space-y-2 text-sm">
@@ -304,7 +312,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/qO0nIU0hgk65WC4JeXKjg.webp" alt="Ícone de Biblioteca 82 Livros + Audiobooks" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/qO0nIU0hgk65WC4JeXKjg.webp" alt="Ícone de Biblioteca 82 Livros + Audiobooks" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">📚 BÔNUS #4: BIBLIOTECA 82 LIVROS + AUDIOBOOKS</h4>
                 <p class="text-gray-600 mt-2">A&nbsp;maior coleção&nbsp;de&nbsp;reading/listening do Brasil.</p>
                  <ul class="mt-4 space-y-2 text-sm">
@@ -317,7 +326,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/vU0dH1ox4Ua9rqA5Nq0YNg.webp" alt="Ícone de Playlist 100 Músicas Didáticas" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/vU0dH1ox4Ua9rqA5Nq0YNg.webp" alt="Ícone de Playlist 100 Músicas Didáticas" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">🎧 BÔNUS #5: 100 MÚSICAS DIDÁTICAS</h4>
                 <p class="text-gray-600 mt-2">Aprenda cantando&nbsp;com as&nbsp;melhores músicas em inglês.</p>
                  <ul class="mt-4 space-y-2 text-sm">
@@ -330,7 +340,8 @@
             
 
 <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 text-left">
-                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/Ifqql6ZlgU2CNxeoR2gO2A.webp" alt="Ícone de Simulador de Entrevistas" class="w-full h-auto rounded-md mb-4 object-contain">
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/Ifqql6ZlgU2CNxeoR2gO2A.webp" alt="Ícone de Simulador de Entrevistas" class="w-full h-auto rounded-md mb-4 object-contain" loading="lazy">
                 <h4 class="font-bold text-gray-800 text-lg">🗣 BÔNUS #6: SIMULADOR DE ENTREVISTAS EM INGLÊS</h4>
                 <p class="text-gray-600 mt-2">Prepare-se para oportunidades internacionais</p>
                  <ul class="mt-4 space-y-2 text-sm">
@@ -353,7 +364,8 @@
                 
 
 <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200 w-full lg:w-1/3 flex flex-col">
-                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=374,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/FPdmrSkmIkuYDDXcWbaSXg.webp" alt="Ícone Pack Essencial" class="w-full h-auto rounded-md mb-6 object-contain">
+                    <!-- Otimização: Adicionado loading="lazy" -->
+                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=374,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/FPdmrSkmIkuYDDXcWbaSXg.webp" alt="Ícone Pack Essencial" class="w-full h-auto rounded-md mb-6 object-contain" loading="lazy">
                     <h3 class="text-2xl font-bold text-gray-800 text-center">PACK ESSENCIAL</h3>
                     <div class="my-4 text-center">
                         <span class="text-4xl font-extrabold text-gray-900">R$ 14,90</span>
@@ -375,7 +387,8 @@
 
 <div class="bg-white p-8 rounded-xl shadow-2xl border-2 pro-pack w-full lg:w-1/3 flex flex-col relative">
                     <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-gray-900 text-xs font-bold px-3 py-1 rounded-full">⭐ MAIS ESCOLHIDO</div>
-                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=374,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Ícone Pack PRO" class="w-full h-auto rounded-md mb-6 object-contain">
+                    <!-- Otimização: Adicionado loading="lazy" -->
+                    <img src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=374,format=webp/tenants/SeqLpa7fVkqaCk4IuskK1g/images/XQ6iaHfRKUaUhXBCX812Lg.webp" alt="Ícone Pack PRO" class="w-full h-auto rounded-md mb-6 object-contain" loading="lazy">
                     <h3 class="text-2xl font-bold gradient-text text-center">PACK PRO — Leve Tudo</h3>
                     <div class="my-4 text-center">
                         <span class="text-4xl font-extrabold text-gray-900">R$ 37,90</span>
@@ -427,12 +440,14 @@
             
 
 <div class="aspect-short rounded-xl overflow-hidden shadow-lg">
-                <iframe src="https://www.youtube.com/embed/zEvt6lnxr6s" title="Depoimento Ana Clara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <iframe src="https://www.youtube.com/embed/zEvt6lnxr6s" title="Depoimento Ana Clara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
             
 
 <div class="aspect-short rounded-xl overflow-hidden shadow-lg">
-                <iframe src="https://www.youtube.com/embed/cM1H69uKbz0" title="Depoimento Aluno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- Otimização: Adicionado loading="lazy" -->
+                <iframe src="https://www.youtube.com/embed/cM1H69uKbz0" title="Depoimento Aluno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
         <p class="mt-8 text-lg font-semibold text-gray-700">+1.100 alunos usando o método nos últimos 45 dias</p>
